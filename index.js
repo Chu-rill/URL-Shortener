@@ -6,6 +6,7 @@ const ShortUrl = require("./model/shortUrl");
 const app = express();
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
+app.use(express.static("public"));
 app.set("view engine", "ejs");
 const port = process.env.PORT;
 const URI = process.env.MONGODB_URI || "mongodb://localhost:27017/urlShortener";
