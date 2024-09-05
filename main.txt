@@ -1,2 +1,0 @@
-For those doing the tutorial in 2022, "sr-only" has been replaced with "visually-hidden" in bootstrap
-
